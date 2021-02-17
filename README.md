@@ -1,24 +1,27 @@
-# frontend-sandbox-vue
+# Frontend Sandbox Vue MM
 
-## Project setup
+### Hello, this is a sandbox MM
 ```
-npm install
+Here I test the components I write for projects
 ```
+## Sandbox setup
+```
+npm install - first step
+npm run serve - develop server (localhost hot-reloads)
+npm run build - production 
+npm run lint (not used)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
 ```
 
-### Lints and fixes files
+### Components
 ```
-npm run lint
+Vue Router
+Vuex
+```
+```
+...
+Chart JS
+Moment JS
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+See [VUE Docs](https://cli.vuejs.org/config/)
