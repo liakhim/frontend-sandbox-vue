@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Chart_0 from '../views/Chart_0.vue'
+import Forms from '../views/Forms.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/chart/0',
     name: 'Chart',
     component: Chart_0
+  },
+  {
+    path: '/forms/login',
+    name: 'Forms',
+    component: Forms
   }
 ]
 

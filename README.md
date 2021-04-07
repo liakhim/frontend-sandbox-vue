@@ -17,11 +17,14 @@ npm run lint (not used)
 ```
 Vue Router
 Vuex
+Axios
 ```
 ```
 ...
 Chart JS
 Moment JS
+Bootstrap (not Bootstrap-Vue)
+Bootstrap-Icons
 ```
 
 See [VUE Docs](https://cli.vuejs.org/config/)

@@ -1,9 +1,5 @@
 <template>
   <div class="small">
-    <p>
-      {{chartdata.labels}}
-    </p>
-    <span>{{ new Date() | moment("dddd, MMMM Do YYYY") }}</span>
     <line-chart v-if="flag" :chart-data="chartdata" :options="options"></line-chart>
   </div>
 </template>
@@ -18,14 +14,14 @@
     data () {
       return {
         flag: true,
-        test_data: [10, 24, 10, 10, 20, 0],
+        test_data: [10, 24, 10, 10, 20, 0, 12, 14, 18, 22, 24, 26],
         chartdata: {
-          labels: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь'],
+          labels: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь'],
           datasets: [
             {
               label: 'Commits',
               backgroundColor: '#f87979',
-              data: [0,1,2,3,1,0]
+              data: [10, 24, 10, 0, 20, 10, 12, 14, 18, 22, 24, 26]
             }
           ]
         },
